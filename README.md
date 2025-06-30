@@ -1,18 +1,66 @@
-## Getting Started
+Java Password Manager
+Overview
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Java Password Manager is a lightweight application designed to securely manage and log your passwords. The software currently supports password storage and logging, with plans to implement strong encryption mechanisms to safeguard sensitive information.
+Features
 
-## Folder Structure
+    Store and organize passwords efficiently
 
-The workspace contains two folders by default, where:
+    Log password usage and modifications
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    (Planned) Encrypt stored passwords using strong cryptographic algorithms
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    (Planned) Secure user authentication and access control
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Installation
 
-## Dependency Management
+    Clone the repository:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+git clone https://github.com/yourusername/java-password-manager.git
+
+Build the project with your preferred Java build tool (e.g., Maven, Gradle) or compile manually:
+
+javac -d bin src/*.java
+
+Run the application:
+
+    java -cp bin Main
+
+Usage
+
+    Launch the application.
+
+    Add, view, and manage your passwords.
+
+    Passwords will be logged for auditing purposes.
+
+    Encryption features will be added in future versions.
+
+Security Considerations
+
+    Passwords are currently stored in plain text for development purposes.
+
+    Future releases will include encryption using industry-standard algorithms such as AES.
+
+    It is recommended to keep this software and stored data on secure, trusted devices.
+
+    Avoid sharing password data or logs without proper protection.
+
+Roadmap
+
+    Implement AES encryption for stored passwords
+
+    Add user authentication (e.g., master password)
+
+    Improve UI/UX for easier password management
+
+    Add import/export functionality with encryption
+
+    Integrate secure password generation tool
+
+Contribution
+
+Contributions are welcome. Please fork the repository and submit pull requests.
+License
+
+MIT License
