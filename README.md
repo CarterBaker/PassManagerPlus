@@ -1,66 +1,45 @@
-Java Password Manager
-Overview
+## 🧩 PassManagerPlus: a password manager prototype
 
-Java Password Manager is a lightweight application designed to securely manage and log your passwords. The software currently supports password storage and logging, with plans to implement strong encryption mechanisms to safeguard sensitive information.
-Features
+**Solo-developed systems architecture prototype** built in 4 hours using Java to showcase my programming skills. Java is very
+similar to C# which is the langauge I am most familiar with. The project was cut short before reaching the final vision for it
+mainly due to time constraints to focus on other priorities.
 
-    Store and organize passwords efficiently
+---
 
-    Log password usage and modifications
+## 🎮 Core Features
 
-    (Planned) Encrypt stored passwords using strong cryptographic algorithms
+- 🌍 **Password Save System**  
+  - View and manage saved passwords
 
-    (Planned) Secure user authentication and access control
+- 🧙 **Privacy Focus**  
+  - Passwords are initially blocked/ not shown until you need to see them to prevent over the shoulder identity theft.
 
-Installation
+---
 
-    Clone the repository:
+## 🔮 Future Plans
+  - Decryption and encryption algorithms to better protect saved password security.
 
-git clone https://github.com/yourusername/java-password-manager.git
+---
 
-Build the project with your preferred Java build tool (e.g., Maven, Gradle) or compile manually:
+## 🧠 Developer Notes
 
-javac -d bin src/*.java
+  The main focus of this project was just to showcase my knowledge of Java as a langauge and get a feel for security concerns.
+  At this time I did not posess the time to bring this project to it's final vision due mainly to time constraints.
 
-Run the application:
+---
 
-    java -cp bin Main
+## 🛠 Development Info
 
-Usage
+- **Language:** Java
 
-    Launch the application.
+---
 
-    Add, view, and manage your passwords.
+## 🧰 Setup Instructions
 
-    Passwords will be logged for auditing purposes.
+1. Clone this repo:
+    git clone https://github.com/YourUsername/YourJavaProject.git  
 
-    Encryption features will be added in future versions.
+2. Open the project folder in Visual Studio Code
+    Make sure you have the Java Extension Pack installed (from Microsoft)
 
-Security Considerations
-
-    Passwords are currently stored in plain text for development purposes.
-
-    Future releases will include encryption using industry-standard algorithms such as AES.
-
-    It is recommended to keep this software and stored data on secure, trusted devices.
-
-    Avoid sharing password data or logs without proper protection.
-
-Roadmap
-
-    Implement AES encryption for stored passwords
-
-    Add user authentication (e.g., master password)
-
-    Improve UI/UX for easier password management
-
-    Add import/export functionality with encryption
-
-    Integrate secure password generation tool
-
-Contribution
-
-Contributions are welcome. Please fork the repository and submit pull requests.
-License
-
-MIT License
+3. To run the project, simply press F5 (Run/Debug)
