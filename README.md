@@ -37,7 +37,7 @@ mainly due to time constraints to focus on other priorities.
 ## 🧰 Setup Instructions
 
 1. Clone this repo:
-    git clone https://github.com/YourUsername/YourJavaProject.git  
+    git clone https://github.com/CarterBaker/PassManagerPlus 
 
 2. Open the project folder in Visual Studio Code
     Make sure you have the Java Extension Pack installed (from Microsoft)
